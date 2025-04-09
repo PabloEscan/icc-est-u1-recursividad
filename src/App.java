@@ -1,10 +1,22 @@
 public class App {
     public static void main(String[] args) throws Exception {
         
-        int n = 5;
+        /*int n = 5;
         int resultadoFinal = factorial(n);
-        System.out.println("Resultado: "+ resultadoFinal);
+        System.out.println("Resultado: "+ resultadoFinal);*/
+
+
+        EjerciciosRecursivos e = new EjerciciosRecursivos();
+        /*int fibo = e.fibonacci(3);
+        System.out.println(fibo);*/
+
+        int conse = e.sumaConsecutivos(5);
+        System.out.println(conse);
     }
+
+
+
+
 
     //Para poder llamar a este metodo y llamar de esta clase siendo que solo se llamara si lo instanciamos
     public static int factorial(int n){
