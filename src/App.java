@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         
-        int n = 1257;
+        int n = 1234;
         //int exp = 3;
         /*int resultadoFinal = factorial(n);
         System.out.println("Resultado: "+ resultadoFinal);*/
@@ -17,8 +17,12 @@ public class App {
         /*int pote = e.getPotencial(n, exp);
         System.out.println(n + "^" + exp + " = " + pote);*/
 
-        int sum = e.sumaDeDigitos(n);
-        System.out.println(sum);
+        /*int sum = e.sumaDeDigitos(n);
+        System.out.println(sum);*/
+        
+        /*System.out.println(e.cuentaDescendente(n));*/
+
+        System.out.println(e.invertirNumero(n));
     }
 
 

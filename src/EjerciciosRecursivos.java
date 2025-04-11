@@ -39,4 +39,25 @@ public class EjerciciosRecursivos {
         int resultado = ultimodigito + digitos;
         return resultado;
     }
+
+    public int cuentaDescendente(int n){
+        if (n == 1){
+            return n;
+        }
+
+        System.out.print(n + " ");
+        int valores = cuentaDescendente(n-1);
+        return valores ;
+    }
+
+    public int invertirNumero(int n){
+        if (n < 10){
+            return n;
+        }
+
+        int ultimodigito = n % 10;
+        System.out.print( ultimodigito);
+        int digitos = invertirNumero(n/10);
+        return digitos;
+    }
 }
