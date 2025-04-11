@@ -1,8 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
         
-        /*int n = 5;
-        int resultadoFinal = factorial(n);
+        int n = 1257;
+        //int exp = 3;
+        /*int resultadoFinal = factorial(n);
         System.out.println("Resultado: "+ resultadoFinal);*/
 
 
@@ -10,8 +11,14 @@ public class App {
         /*int fibo = e.fibonacci(3);
         System.out.println(fibo);*/
 
-        int conse = e.sumaConsecutivos(5);
-        System.out.println(conse);
+        /*int conse = e.sumaConsecutivos(5);
+        System.out.println(conse);*/
+
+        /*int pote = e.getPotencial(n, exp);
+        System.out.println(n + "^" + exp + " = " + pote);*/
+
+        int sum = e.sumaDeDigitos(n);
+        System.out.println(sum);
     }
 
 
